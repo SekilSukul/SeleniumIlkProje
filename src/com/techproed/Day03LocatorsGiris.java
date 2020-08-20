@@ -16,7 +16,7 @@ public class Day03LocatorsGiris {
         driver.manage().window().maximize();
         driver.get("http://a.testaddressbook.com/");
         // ilk webelementimizi buluyoruz.
-        // "Hamza" -> String
+        // "Ahmet" -> String
         // Web sayfasındaki tüm elamanlar -> WebElement
         // webelementimizi id kullanarak bulduk.
         WebElement signInLink = driver.findElement(By.id("sign-in"));
